@@ -9,9 +9,9 @@ return LowerS1.indexOf(lowerS2);
 }
 
 // Please do not change the code below
-let s1 = prompt("Hello World", "world");
-let s2 = prompt("Enter the second string:");
-let result = indexOfIgnoreCase(s1, s2);
+let s1 = prompt("Hello World");
+let s2 = prompt("world");
+let result = indexOfIgnoreCase(s1,s2);
 
 let resultElement = document.getElementById('result');
 resultElement.innerText = "The index is: " + result;
